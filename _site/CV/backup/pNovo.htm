@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0048)http://pfind.ict.ac.cn/software/pNovo/index.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<link rel="stylesheet" href="./pNovo_files/page.css" type="text/css">
+	<link rel="shortcut icon" href="http://pfind.ict.ac.cn/people/jmmeng/images/favicon.png" type="image/x-icon">
+	<title>pNovo</title>
+	
+		<script type="text/javascript" async="" src="./pNovo_files/ga.js"></script><script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31389353-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+  </script>
+	
+	
+	
+</head>
+<body>
+	<div id="content">
+		<h1>pFind Studio: a computational solution for mass spectrometry-based proteomics</h1>
+		
+		<ul id="menu">
+			<li><a href="http://pfind.ict.ac.cn/index.html">Home</a></li>
+			<li><a href="http://pfind.ict.ac.cn/members.html">Members</a></li>
+			<li><a href="http://pfind.ict.ac.cn/collaborators.html">Collaborators</a></li>
+			<li><a href="http://pfind.ict.ac.cn/publications.html">Publications</a></li>
+			<li><a href="http://pfind.ict.ac.cn/downloads.html">Downloads</a></li>
+			<li><a href="http://pfind.ict.ac.cn/links.html">Links</a></li>
+			<li><a href="http://pfind.ict.ac.cn/about.html">About us</a></li>
+		</ul>
+	
+	
+	<div class="post">
+	
+			<div class="details">
+				<h2><a href="http://pfind.ict.ac.cn/software/pNovo/index.html#">pNovo</a></h2>
+				<p class="info"><a href="http://pfind.ict.ac.cn/software/pNovo/index.html#Publications">Publications</a>&nbsp;-&nbsp;   <a href="http://pfind.ict.ac.cn/software/pNovo/index.html#Supplemental Files">Supplemental Files</a>&nbsp;-&nbsp;  <a href="http://pfind.ict.ac.cn/software/pNovo/index.html#Introduction">Introduction</a></p>
+			</div>
+			
+			<div class="body">
+				<p></p>
+		  </div>
+			
+			<div class="x"></div>
+			
+	</div>
+		
+	<div class="col last1">
+				
+			
+		<h3 id="Introduction">Introduction</h3>
+		
+		<p>pNovo+ is a de novo peptide sequencing algorithm using complementary HCD and ETD tandem mass spectra, which is a upgraded version of <u>pNovo</u> and greatly improves the accuracy and the speed of de novo sequencing.</p>
+    <p>De novo peptide sequencing is the only tool for extracting peptide sequences directly from tandem mass spectrometry data without any protein database. However, neither the efficiency nor the accuracy of de novo sequencing has been satisfactory, mainly due to incomplete fragmentation information in experimental spectra. Recent advancement in mass spectrometry technology has enabled acquisition of different fragmentation spectra such as higher-energy collisional dissociation (HCD) and electron transfer dissociation (ETD) spectra of the same precursor. These spectra contain complementary fragmentation information and can be collected with high resolution and high mass accuracy. Taking these advantages, we have developed a new algorithm called pNovo+, which is a upgraded version of pNovo and greatly improves the accuracy and the speed of de novo sequencing.</p>
+    
+
+		<p align="center"><a href="./pNovo_files/00.png"><img src="./pNovo_files/00.png" width="400" height="350/"></a></p>
+
+		<p>Figure 1. An HCD and ETD spectrum pair belonging to the same precursor. De novo sequencing was fruitless on either spectrum, but as a pair, they allowed the correct sequence to be derived, as cleavage evidence can be found for nearly all subsequences in one spectrum or the other.</p>
+		<p>As shown in Figure 1, With HCD and ETD spectrum pairs, missing cleavage information in one spectrum may be found in the other, and the anti-symmetry restriction is unnecessary in finding the longest path from high mass accuracy MS/MS data. Thus, we removed the anti-symmetry restriction and developed an efficient algorithm pDAG to find the k longest paths, and this significantly improved the speed of de novo peptide sequencing.</p>
+
+		
+		
+		<br>
+	
+		
+		<div class="pub">
+		<br>
+		<br>
+		<h3 id="Supplemental Files">Supplemental Files</h3>
+		
+		
+		<!--<p>If you want to download pNovo+, or have any questions about pNovo+, please contact Hao Chi (<u>chihao@ict.ac.cn</u>).</p>-->
+		<p>pNovo+ is currently free to use. <a href="http://pfind.ict.ac.cn/software/pNovo/pNovo_setup.exe">Download pNovo+</a>.</p>
+		<p>Notice: Please read carefully the <a href="http://pfind.ict.ac.cn/software/pNovo/License.pdf">pNovo+ Software License Agreement</a> before downloading and using the software. Please fill in the <a href="http://pfind.ict.ac.cn/software/pNovo/pNovo%20Registration.doc">registered table</a> and email it to <a href="mailto:chihao@ict.ac.cn">chihao@ict.ac.cn</a> to get the registration key.</p>
+		If you have any questions about it, please contact <a href="mailto:chihao@ict.ac.cn">Hao Chi (chihao@ict.ac.cn)</a>.<p></p>
+		</div>
+		
+		<div class="pub">
+		<br>
+		<br>
+		<h3 id="Publications">Publications</h3>
+		<p>Journal of Proteome Research, 9 (5), 2713–2724, 2010. <a href="http://pubs.acs.org/doi/abs/10.1021/pr100182k">[abstract]</a></p>
+		<h5><a href="http://pfind.ict.ac.cn/paper/2010_chi.pdf">pNovo: De novo Peptide Sequencing and Identification Using HCD Spectra.</a></h5>
+	  <p>Hao Chi , Rui-Xiang Sun , Bing Yang , Chun-Qing Song , Leheng Wang , Chao Liu , Yan Fu , Zuo-Fei Yuan , Hai-Peng Wang , Si-Min He and Meng-Qiu Dong.</p>
+		
+
+    <br>
+	  
+	
+	</div>		
+			
+		<div id="footer">
+			<p>Copyright © pFind Team · Institute of Computing Technology, Chinese Academy of Sciences, Beijing, China</p>
+		</div>	
+	</div>
+
+</div></body></html>
