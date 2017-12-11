@@ -10,3 +10,6 @@ author:
 production_url: http://blog.acgtun.com
 
 baseurl: /
+
+plugins:
+  - jekyll-seo-tag
