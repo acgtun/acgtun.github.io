@@ -1,0 +1,12 @@
+highlighter: rouge
+permalink: /posts/:title.html
+
+title: Journey to the West
+author:
+  name: acgtun
+  email: acgtun at gmail dot com
+  github: acgtun
+
+production_url: http://blog.acgtun.com
+
+baseurl: /
