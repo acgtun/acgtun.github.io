@@ -1,1 +1,1 @@
-a new webpage will come soon
+URL: [http://blog.acgtun.com/](http://blog.acgtun.com/)
