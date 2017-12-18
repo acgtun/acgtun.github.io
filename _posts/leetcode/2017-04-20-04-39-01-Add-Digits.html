@@ -1,0 +1,23 @@
+---
+layout: post
+title: Add Digits
+date: 2017-04-20 04:39:01
+categories: leetcode
+---
+
+{ % raw %}
+
+{% highlight cpp %}
+
+class Solution {
+public:
+    int addDigits(int num) {
+       
+        return num - 9 * ((num - 1) / 9);
+        
+    }
+};
+
+{% endhighlight %}
+{ % endraw %}
+
