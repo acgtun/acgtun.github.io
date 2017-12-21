@@ -11,7 +11,5 @@ production_url: http://blog.acgtun.com
 
 baseurl: /
 
-highlighter: pygments
-
 plugins:
   - jekyll-seo-tag
