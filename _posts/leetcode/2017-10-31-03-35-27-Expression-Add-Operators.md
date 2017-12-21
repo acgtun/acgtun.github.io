@@ -6,8 +6,7 @@ categories: leetcode
 ---
 
 ```java
-{{ % raw %}}
-{{public class Solution {
+public class Solution {
     List<String> ret;
     private static final String[] ops = new String[]{"+", "-", "*"};
 
@@ -141,6 +140,4 @@ class Solution {
         return ret;
     }
 }
-}}
-{{ % endraw %}}
 ```
