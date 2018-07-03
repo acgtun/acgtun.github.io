@@ -11,6 +11,7 @@ production_url: http://blog.acgtun.com
 
 baseurl: /
 
+comments: true
 markdown: kramdown
 
 plugins:
