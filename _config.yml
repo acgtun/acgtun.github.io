@@ -11,5 +11,7 @@ production_url: http://blog.acgtun.com
 
 baseurl: /
 
+markdown: kramdown
+
 plugins:
   - jekyll-seo-tag
